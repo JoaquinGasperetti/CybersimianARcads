@@ -133,7 +133,7 @@ GameObject:
   - component: {fileID: 565961378}
   - component: {fileID: 565961377}
   - component: {fileID: 565961376}
-  - component: {fileID: 565961375}
+  - component: {fileID: 565961382}
   m_Layer: 0
   m_Name: XR Origin (Mobile AR)
   m_TagString: Untagged
@@ -141,21 +141,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &565961375
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 565961374}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5410aad64573acf45b739bf9fdf55923, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::TrackedImagePrefabSpawner
-  placeablePrefabs:
-  - {fileID: 8492284134565189151, guid: 7d0d9bc629ec8d142a5522d4f9ce7703, type: 3}
-  - {fileID: 919132149155446097, guid: 6cc722c4c9375e448b5b5663f217a4a3, type: 3}
 --- !u!114 &565961376
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -255,6 +240,24 @@ Transform:
   - {fileID: 864865017}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &565961382
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 565961374}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a785ac4582827f45a1f3fa0e2011dd2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TrackedImagePrefabSpawner_Scaled
+  placeablePrefabs:
+  - {fileID: 8492284134565189151, guid: 7d0d9bc629ec8d142a5522d4f9ce7703, type: 3}
+  - {fileID: 680686678849246758, guid: e34f602c7f7b6084babcd2ac4a39402e, type: 3}
+  scaleMultiplier: 1
+  minScale: 0.001
+  maxScale: 10
 --- !u!1 &864865016
 GameObject:
   m_ObjectHideFlags: 0
